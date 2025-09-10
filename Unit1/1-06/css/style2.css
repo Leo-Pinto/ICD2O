@@ -1,0 +1,29 @@
+#myheader {
+  background-color: rgb(30, 30, 30);
+  color: rgb(115, 115, 127);
+  padding: 40px;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+ol{
+color:rgb(255, 0, 0);
+
+}
+#cool{
+  color:darkblue;
+}
+
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color:brown;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;}
