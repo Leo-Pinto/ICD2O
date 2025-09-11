@@ -20,8 +20,17 @@ a{
   background-color: brown;
   padding: 1px;
   text-align:left;
+  border:solid
+  black
+  3px;
+  border-radius: 67px;
+  align-content: center;
 }
+a:hover{
+  background-color: #00b7ff;
 
+
+}
 img{
   text-align: center;
 }
