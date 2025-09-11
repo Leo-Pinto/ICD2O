@@ -24,10 +24,10 @@ body{
 }
 
 td,th {
-  border: 1px solid #ff0000;
+  border: 2px solid #000000;
   text-align: left;
   padding: 8px;
-  color:brown;
+  color:brown;  font-size: small;
 }
 tr{
-  background-color: #000000;}
+  background-color: #ffffff;}
