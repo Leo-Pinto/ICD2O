@@ -18,12 +18,16 @@ color:rgb(255, 0, 0);
   color:darkblue;
 }
 
+body{
+  background-color: aquamarine;
+
+}
 
 td,th {
-  border: 1px solid #dddddd;
+  border: 1px solid #ff0000;
   text-align: left;
   padding: 8px;
   color:brown;
 }
-tr:nth-child(even) {
-  background-color: #dddddd;}
+tr{
+  background-color: #000000;}
