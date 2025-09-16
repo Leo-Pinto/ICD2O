@@ -13,6 +13,12 @@ border:solid;
 
 div.move{
 position:relative;
-left:500px;
+left:470px;
+bottom: 375px;
+}
 
+div.arrow{
+  scale: 10%;
+  position:relative;
+  bottom:185px;
 }
