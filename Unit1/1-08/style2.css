@@ -20,5 +20,13 @@ bottom: 375px;
 div.arrow{
   scale: 10%;
   position:relative;
+  right:550px;
   bottom:185px;
+}
+
+div.zoom{
+position:relative;
+top:250px;
+left:200px;
+
 }
