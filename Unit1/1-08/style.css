@@ -2,3 +2,34 @@ body {
   background-color: rgb(249, 249, 249);
 
 }
+div.kk {
+  position: relative;
+  left: 0px;
+  bottom: 60px;
+
+}
+
+
+div.lk {
+  position: relative;
+  left: 330px;
+  bottom: 98px;
+
+}
+
+div.ak {
+  position: relative;
+  left: 290px;
+  bottom: 95px;
+
+}
+
+
+div.ck {
+
+  position: relative;
+  left: 700px;
+  bottom: 200px;
+
+
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(146, 212, 255);
+
+}
+
+#supacoolbig{
+border: 10px;
+border-radius: 10px;
+border-color: aqua;
+border:solid;
+
+}
+
+div.move{
+position:relative;
+left:500px;
+
+}
