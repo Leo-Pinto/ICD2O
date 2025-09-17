@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(146,212,255);
+
+}
+div.kk {
+  position: relative;
+  left: 330px;
+  bottom: 188px;
+
+
+}
+
+
+div.lk {
+  position: relative;
+  left: 0px;
+  bottom: 3px;
+
+}
+
+div.ak {
+  position: relative;
+  left: 0px;
+  bottom: 3px;
+
+}
+
+
+div.ck {
+
+  position: relative;
+  left: 700px;
+  bottom: 200px;
+
+
+}

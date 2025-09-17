@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(146, 212, 255);
+
+}
+
+#supacoolbig{
+border: 10px;
+border-radius: 10px;
+border-color: aqua;
+border:solid;
+
+}
+
+div.move{
+position:relative;
+left:470px;
+bottom: 375px;
+}
+
+div.arrow{
+  scale: 10%;
+  position:relative;
+  right:550px;
+  bottom:185px;
+}
+
+div.zoom{
+position:relative;
+top:500px;
+left:2300px;
+scale:300%;
+}
