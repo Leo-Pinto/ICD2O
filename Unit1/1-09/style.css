@@ -17,6 +17,11 @@ bottom: 100px;
 }
 
 
+div.clear{
+  position: relative;
+  left: 150px;
+  bottom: 210px;
+}
 
 
 div.all{
