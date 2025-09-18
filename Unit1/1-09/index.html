@@ -96,6 +96,27 @@
     document.getElementById("generatedName").innerText = randomName;
   }</script>
 </div>
+
+  <div class="clear">
+    <!-- Colored FAB button with ripple -->
+    <button id="clearButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <i class="material-icons">clear</i>
+    </button>
+  </div>
+
+<script>
+document.getElementById('clearButton').addEventListener('click', () => {
+  document.getElementById('userInput').value = '';
+  document.getElementById('userInput').focus();
+})
+
+</script>
+
+
+
+
+
+
 </div>
 </body>
 </html>
