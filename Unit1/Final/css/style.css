@@ -2,7 +2,24 @@ body{
   background-color: rgb(77, 74, 74);
 }
 
-#mainheader{
+.mainheaders{
+  color: azure;
+  text-align: center;
+}
+
+#subheader {
+  color: azure;
+  text-align: center;
+}
+
+#photo1{
+  position: fixed;
+  left:880px;
+  top:500px;
+  scale: 300%;
+}
+
+#hooker{
   color: azure;
   text-align: center;
 }
