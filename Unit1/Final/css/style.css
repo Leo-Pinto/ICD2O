@@ -47,7 +47,10 @@ p{
 
 div.text{
     color: azure;
-    text-align: center;
+    position:fixed;
+    left:850px;
+
+
 }
 div.button{
     position: fixed;
