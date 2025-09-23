@@ -26,7 +26,21 @@ body{
 
 .list{ 
   color: azure;
-  font-size: 30px;
+  font-size: 56px;
+  line-height: 67px;
+}
 
 
+div.box{
+  position: relative;
+  top: 160px;
+}
+div.move{
+  position: absolute;
+  left:20px;
+}
+
+p{
+  color: azure;
+  text-align: center;
 }
