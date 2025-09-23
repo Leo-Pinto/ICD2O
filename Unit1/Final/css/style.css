@@ -44,3 +44,13 @@ p{
   color: azure;
   text-align: center;
 }
+
+div.text{
+    color: azure;
+    text-align: center;
+}
+div.button{
+    position: fixed;
+    left: 1200px;
+    bottom: 770px;
+}
