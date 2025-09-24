@@ -154,6 +154,39 @@ ol{
   }
 
 
-     input[type="text"] {
-       color: azure;
-     }
+input[type="text"] {
+  color: azure;
+}
+
+#set1{
+  position: absolute;
+  left:50px;
+  }
+
+#set2{
+  position: absolute;
+  left: 250px;
+  top:200px;
+  scale:200%;
+}
+
+#set3 {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  scale: 200%;
+}
+
+#set4{
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  scale: 200%;
+}
+
+#set5 {
+  position: absolute;
+  left: 300px;
+  top: 190px;
+  scale: 160%;
+}
