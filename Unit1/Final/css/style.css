@@ -96,3 +96,16 @@ div.box3 {
     position: relative;
     bottom: -100px;
   }
+
+    .box4 {
+      background-color: rgb(117, 112, 112);
+      border: solid;
+      border-width: 10;
+      border-radius: 10px;
+      width: 800px;
+      height: 500px;
+      position: absolute;
+      left: 10px;
+    position: relative;
+      bottom: 400px;
+    }
