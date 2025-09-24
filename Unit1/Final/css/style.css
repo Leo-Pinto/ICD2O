@@ -60,26 +60,39 @@ div.button{
 
 .box1{
   background-color: rgb(117, 112, 112);
-  border: solid;
-  border-width: 10;
-  border-radius: 10px;
-  width: 800px;
-  height: 500px;
-  position: fixed;
-  left: 10px;
-  position: relative;
-  top :100px;
+    border: solid;
+    border-width: 10;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 10px;
+    position: relative;
+    top: 100px;
 }
 
 div.box2{
   background-color: rgb(117, 112, 112);
-  border: solid;
-  border-width: 10;
-  border-radius: 10px;
-  width: 800px;
-  height: 500px;
-  position: fixed;
-  left: 1000px;
-  position: relative;
-  top: 10px;
+    border: solid;
+    border-width: 10;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 1100px;
+    position: relative;
+    bottom: 400px;
 }
+
+div.box3 {
+  background-color: rgb(117, 112, 112);
+    border: solid;
+    border-width: 10;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    position: fixed;
+    left: 1100px;
+    position: absolute;
+    bottom: -400px;
+  }
