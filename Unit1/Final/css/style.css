@@ -55,5 +55,31 @@ div.text{
 div.button{
     position: fixed;
     left: 1200px;
-    bottom: 770px;
+    bottom: 690px;
+}
+
+.box1{
+  background-color: rgb(117, 112, 112);
+  border: solid;
+  border-width: 10;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  position: fixed;
+  left: 10px;
+  position: relative;
+  top :100px;
+}
+
+div.box2{
+  background-color: rgb(117, 112, 112);
+  border: solid;
+  border-width: 10;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  position: fixed;
+  left: 1000px;
+  position: relative;
+  top: 10px;
 }
