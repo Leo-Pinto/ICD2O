@@ -124,9 +124,25 @@ div.box3 {
   bottom: -60px;
 }
 
+
+.boxstore {
+  background-color: rgb(117, 112, 112);
+  border: solid;
+  border-width: 10;
+  border-radius: 10px;
+  width: 140px;
+  height: 200px;
+  position: absolute;
+  left: 580px;
+  position: relative;
+  bottom: -60px;
+}
+
 h3{ 
   color: azure;
   text-align: center;
 }
 
-
+ol{
+  color: azure;
+  text-align: left;}
