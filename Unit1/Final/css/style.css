@@ -46,66 +46,87 @@ p{
 }
 
 div.text{
-    color: azure;
-    position:fixed;
-    left:850px;
+   color: azure;
+  position:fixed;
+  left:850px;
 
 
 }
 div.button{
-    position: fixed;
-    left: 1200px;
-    bottom: 690px;
+  position: fixed;
+  left: 1200px;
+  bottom: 690px;
 }
 
 .box1{
   background-color: rgb(117, 112, 112);
-    border: solid;
-    border-width: 10;
-    border-radius: 10px;
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    left: 10px;
-    position: relative;
-    top: 100px;
+   border: solid;
+   border-width: 10;
+   border-radius: 10px;
+   width: 800px;
+   height: 500px;
+  position: absolute;
+  left: 10px;
+  position: relative;
+  top: 100px;
 }
 
 div.box2{
   background-color: rgb(117, 112, 112);
-    border: solid;
-    border-width: 10;
-    border-radius: 10px;
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    left: 1100px;
-    position: relative;
-    bottom: 400px;
+  border: solid;
+  border-width: 10;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+   left: 1100px;
+  position: relative;
+  bottom: 400px;
+
 }
 
 div.box3 {
   background-color: rgb(117, 112, 112);
-    border: solid;
-    border-width: 10;
-    border-radius: 10px;
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    left: 1100px;
-    position: relative;
-    bottom: -100px;
-  }
+  border: solid;
+  border-width: 10;
+   border-radius: 10px;
+   width: 800px;
+  height: 500px;
+  position: absolute;
+  left: 1100px;
+  position: relative;
+  bottom: -105px;
+}
 
-    .box4 {
-      background-color: rgb(117, 112, 112);
-      border: solid;
-      border-width: 10;
-      border-radius: 10px;
-      width: 800px;
-      height: 500px;
-      position: absolute;
-      left: 10px;
-    position: relative;
-      bottom: 400px;
-    }
+
+.box4 {
+  background-color: rgb(117, 112, 112);
+   border: solid;
+  border-width: 10;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  left: 10px;
+  position: relative;
+  bottom: 400px;
+}
+.box5 {
+  background-color: rgb(117, 112, 112);
+  border: solid;
+  border-width: 10;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  left: 580px;
+  position: relative;
+  bottom: -60px;
+}
+
+h3{ 
+  color: azure;
+  text-align: center;
+}
+
+
