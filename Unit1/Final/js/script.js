@@ -16,3 +16,8 @@ input.addEventListener('keydown', function (event) {
     window.open(url, '_blank');
   }
 });
+
+document.getElementById('clearButton').addEventListener('click', () => {
+  document.getElementById('userInput').value = '';
+  document.getElementById('userInput').focus();
+})
