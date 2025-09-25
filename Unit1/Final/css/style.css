@@ -186,3 +186,10 @@ input[type="text"] {
   top: 190px;
   scale: 160%;
 }
+
+.coolphotos {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  scale: 200%;
+}
