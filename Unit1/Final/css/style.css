@@ -52,11 +52,7 @@ div.text{
 
 
 }
-div.button{
-  position: fixed;
-  left: 1200px;
-  bottom: 750px;
-}
+
 
 .box1{
   background-color: rgb(117, 112, 112);
