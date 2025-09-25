@@ -214,3 +214,23 @@ input[type="text"] {
     scale: 180%;
 
   }
+
+#indigo{
+  border-radius: 25px;
+    width: 180px;
+    height: 150px;
+    position:fixed ;
+  left: 1200px;
+  bottom: 650px;
+    scale: 150%;
+}
+
+#textbox{
+    background-color: rgb(117, 112, 112);
+      border: solid;
+      border-width: 10;
+      border-radius: 10px;
+      width: 800px;
+      height: 500px;
+}
+
