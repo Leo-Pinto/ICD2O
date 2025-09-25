@@ -134,10 +134,12 @@ div.box3 {
   bottom: -60px;
 }
 
-h3{ 
+h3,h5{ 
   color: azure;
   text-align: center;
 }
+
+
 
 ol{
   color: azure;
@@ -234,4 +236,8 @@ input[type="text"] {
       height: 500px;
 }
 
+#bookgen{
+  position:absolute;
+  left:800px;
+}
 
