@@ -223,8 +223,8 @@ input[type="text"] {
     height: 150px;
     position:fixed ;
   left: 1200px;
-  bottom: 585px;
-    scale: 150%;
+  bottom: 620px;
+    scale: 100%;
 }
 
 #textbox{
@@ -241,3 +241,15 @@ input[type="text"] {
   left:800px;
 }
 
+
+
+    .demo-card-square.mdl-card {
+      width: 320px;
+      height: 320px;
+    }
+  
+    .demo-card-square>.mdl-card__title {
+      color: #fff;
+      background:
+        url('../images/indigofr.png') center 100% no-repeat #2e3192;
+    }
