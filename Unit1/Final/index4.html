@@ -2,145 +2,144 @@
 
 <html lang="en-ca">
 
-<head>
-  <link rel="stylesheet" href="./css/style.css">
-  <meta charset="utf-8">
-  <meta keywords="books, story, nice">
-  <meta name="description" content="why books rock">
-  <meta name="author" content="Leo">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> 4</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-indigo.min.css">
+  <head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8">
+    <meta keywords="books, story, nice">
+    <meta name="description" content="why books rock">
+    <meta name="author" content="Leo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> 4</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-indigo.min.css">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
 
-</head>
+    </head>
 
 
-<body>
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
- 
-
+    <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
 
 
 
-  <div>
-  <!-- Always shows a header, even in smaller screens. -->
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">Books are for you</span>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation. We hide it in small screens. -->
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link"
-            href="./index.html">1</a>
-          <a class="mdl-navigation__link"
-            href="./index2.html">2</a>
-          <a class="mdl-navigation__link"
-            href="./index3.html">3</a>
-          <a class="mdl-navigation__link"
-            href="./index4.html">4</a>
+
+
+    <div>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Books are for you</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link"
+              href="./index.html">1</a>
+            <a class="mdl-navigation__link"
+              href="./index2.html">2</a>
+            <a class="mdl-navigation__link"
+              href="./index3.html">3</a>
+            <a class="mdl-navigation__link"
+              href="./index4.html">4</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">list of books</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Way of Kings</a>
+          <a class="mdl-navigation__link" href="">The will of the many</a>
+          <a class="mdl-navigation__link" href="">Mistborn</a>
+          <a class="mdl-navigation__link" href="">3 body problems</a>
+          <a class="mdl-navigation__link" href="">tress if the emerald sea</a>
         </nav>
       </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">list of books</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Way of Kings</a>
-        <a class="mdl-navigation__link" href="">The will of the many</a>
-        <a class="mdl-navigation__link" href="">Mistborn</a>
-        <a class="mdl-navigation__link" href="">3 body problems</a>
-        <a class="mdl-navigation__link" href="">tress if the emerald sea</a>
-      </nav>
+      <main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here --></div>
+      </main>
     </div>
+
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+
+    <h3 class="mainheaders"> Now it's' time for you to go check some of these books out.</h3>
+
+    <p>Now use the search bar below to enter the book you wanna know about and it will take you to the indigo website with the book loaded up.</p>
+
+
     <main class="mdl-layout__content">
-      <div class="page-content"><!-- Your content goes here --></div>
+    <!-- Textfield with Floating Label -->
+
+    <div class="text">
+    <!-- Simple Textfield -->
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input id="userInput" class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">indigo</label>
+
+
+    </div>
+    <div class="button">
+      <!-- Colored FAB button with ripple -->
+      <button id="searchButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">search</i>
+      </button>
+    </div>
+  
+  
+    <div class="clear">
+      <!-- Colored FAB button with ripple -->
+      <button id="clearButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">clear</i>
+      </button>
+    </div>
+
+
+    </form>
+
+    </div>
+
     </main>
-  </div>
-
-  </div>
-
-
-<br>
-<br>
-<br>
-
-
-<h3 class="mainheaders"> Now it's' time for you to go check some of these books out.</h3>
-
-<p>Now use the search bar below to enter the book you wanna know about and it will take you to the indigo website with the book loaded up.</p>
-
-
-<main class="mdl-layout__content">
-<!-- Textfield with Floating Label -->
-
-<div class="text">
-  <!-- Simple Textfield -->
-  <form action="#">
-    <div class="mdl-textfield mdl-js-textfield">
-      <input id="userInput" class="mdl-textfield__input" type="text" id="sample1">
-      <label class="mdl-textfield__label" for="sample1">indigo</label>
-
-
-  </div>
-  <div class="button">
-    <!-- Colored FAB button with ripple -->
-    <button id="searchButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-      <i class="material-icons">search</i>
-    </button>
-  </div>
-  
-  
-  <div class="clear">
-    <!-- Colored FAB button with ripple -->
-    <button id="clearButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-      <i class="material-icons">clear</i>
-    </button>
-  </div>
-
-
-  </form>
-
-</div>
-
-</main>
 
 
 
 
-  <h6 id="storeheading">This is a list of the best book stores</h6>
-<div class="boxstore">
- <ol>
-  <li>Indigo/chapthers</li>
-  <li>Perfect Books</li>
-  <li>Barnes & Noble</li>
-  <li>Amazone</li>
-  <li>online stores(like kindle)</li>
- </ol>
+    <h6 id="storeheading">This is a list of the best book stores</h6>
+    <div class="boxstore">
+      <ol>
+        <li>Indigo/chapthers</li>
+        <li>Perfect Books</li>
+        <li>Barnes & Noble</li>
+        <li>Amazone</li>
+        <li>online stores(like kindle)</li>
+      </ol>
 
-</div>
-
-
-<div id="indigo">
-  <img src="./images/indigo.jpg" alt="indigo">
-</div >
-<div id="bookgen">
-<main class="mdl-layout__content">
-<div class="coll">
-  <h5>if you are'nt sure what book to read</h5>
-  <p id="generatedName"></p>
-  <button onclick="generateRandomName()">click here</button>
+    </div>
 
 
-</div>
-</main>
+    <div id="indigo">
+      <img src="./images/indigo.jpg" alt="indigo">
+   </div>
+    <div id="bookgen">
+      <main class="mdl-layout__content">
+        <div class="coll">
+        <h5>if you are'nt sure what book to read</h5>
+        <p id="generatedName"></p>
+        <button onclick="generateRandomName()">click here</button>
+      </div>
+    </div>
+    </main>
 
 
 
@@ -148,8 +147,8 @@
 
 
 
-<script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 
-</body>
+  </body>
 
 </html>
