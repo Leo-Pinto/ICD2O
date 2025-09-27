@@ -223,7 +223,7 @@ input[type="text"] {
     height: 150px;
     position:fixed ;
   left: 1200px;
-  bottom: 620px;
+  bottom: 480px;
     scale: 100%;
 }
 
@@ -253,3 +253,26 @@ input[type="text"] {
       background:
         url('../images/indigofr.png') center 100% no-repeat #2e3192;
     }
+
+
+        #greece {
+          border-radius: 25px;
+          width: 350px;
+          height: 300px;
+          position: fixed;
+          left: 800px;
+          bottom: 350px;
+          scale: 150%;
+        }
+
+        .demo-card-square.mdl-card {
+          width: 320px;
+          height: 300px;
+          border-radius: 15px;
+        }
+    
+        .demo-card-square>.mdl-card__title1 {
+          color: #00000000;
+          background:
+            url('../images/greece.png') center/cover 
+        }
