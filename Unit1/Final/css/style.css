@@ -265,14 +265,14 @@ input[type="text"] {
           scale: 150%;
         }
 
-        .demo-card-square.mdl-card {
-          width: 320px;
-          height: 300px;
-          border-radius: 15px;
-        }
-    
-        .demo-card-square>.mdl-card__title1 {
-          color: #00000000;
-          background:
-            url('../images/greece.png') center/cover 
-        }
+                .demo-card-square.mdl-card {
+                  width: 320px;
+                  height: 300px;
+                  border-radius: 15px;
+                }
+        
+                .demo-card-square>.mdl-card__title1 {
+                  color: #00000000;
+                  background:
+                    url('../images/greece.png') center/cover
+                }
